@@ -9,7 +9,6 @@ class task1
         int num=0;
         boolean playagain=true;
         int r=ran.nextInt(100);
-        System.out.println(r);
         while (playagain==true) {
             
         System.out.println("Guess the number generated from 1 to 100");
@@ -44,6 +43,7 @@ class task1
         }
         if(i>5)
         System.out.println("Attempts Finished!!");
+        System.out.println("Number was : "+r);
         System.out.println("Do you want to play again: y/n?");
         char yesorno=sc.next().charAt(0);
         yesorno=Character.toLowerCase(yesorno);
